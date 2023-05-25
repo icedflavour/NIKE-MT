@@ -1,0 +1,353 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+@font-face {
+  font-weight: 400;
+  /* Соответствует значению normal */
+  font-family: 'HelveticaNeueRegular';
+  src: url("helveticaneue (1)\HelveticaNeue.ttf");
+}
+
+@font-face {
+  font-weight: 700;
+  /* Соответствует значению bold */
+  font-family: 'HelveticaBold';
+  src: url("helveticaneue (1)\Helvetica Neu Bold.ttf");
+}
+
+@font-face {
+  font-weight: 500;
+  /* Соответствует значению medium */
+  font-family: 'HelveticaMedium';
+  src: url("helveticaneue (1)\HelveticaNeue Medium.ttf");
+}
+
+a {
+  text-decoration: none;
+}
+
+.nike {
+  margin-top: 20px;
+}
+
+.heart {
+  margin-left: 28px;
+  height: 16.75801658630371px;
+  margin-right: 30px;
+  width: 19.495508193969727px;
+}
+
+.box-header {
+  height: 16.5px;
+  width: 16.5px;
+}
+
+body {
+  line-height: 24px;
+}
+
+.head {
+  text-align: center;
+  background-color: #F5F5F5;
+
+}
+
+.hello-nike {
+  margin: 9px 0 3px;
+}
+
+.under__hello-nike {
+  font-size: 11px;
+  margin-top: 1px;
+}
+
+.Air-Max {
+  margin-bottom: 97px;
+}
+
+.container {
+  max-width: 1344px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.first-look {
+  margin: 0 0 4px
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 60px;
+  margin-bottom: 24px;
+
+}
+
+.Air__Max-description {
+  margin-bottom: 30px;
+}
+
+.button {
+  background-color: #111111;
+  color: #FFFFFF;
+  border-radius: 30px;
+  margin: 0 auto;
+
+}
+
+.Air__Max-description {
+  width: 511px;
+  height: 48px;
+  margin: 0 auto;
+}
+
+.Air__Max__first-btn {
+  padding: 7.5px 22.0781px 7.5px 21.5px;
+  margin-right: 6px;
+}
+
+.Air__Max__second-btn {
+  padding: 7.5px 22.6562px 7.5px 21.5px;
+}
+
+.Air-Max__buttons {
+  margin-top: 30px;
+}
+
+.SubTitel {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  margin: 0 0 25px 0;
+  text-align: left;
+}
+
+.Slider{
+  margin-bottom: 114px;
+}
+
+.Slider__wrapper {
+  max-width: 1344px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+    /* Updated value */
+}
+
+.Slider__wrapper-button{
+  display: flex;
+    justify-content: flex-start;
+    /* Изменено значение */
+    align-items: center;
+    /* Изменено значение */
+}
+
+.Slider_SubTitel{
+  display: flex;
+  align-items: start;
+}
+
+.slider__item {
+  position: relative;
+  max-width: 441.36px;
+  max-height: 510.36px;
+}
+
+.slider__item__desc {
+  max-width: 441.36px;
+  max-height: 60px;
+}
+
+.slider__item-gender {
+  color: #757575;
+}
+
+.items {
+  display: flex;
+}
+
+.slider__item {
+  margin-right: 12px;
+}
+
+.Slider__button{
+  width: 48px;
+  height: 48px;
+  background: #E5E5E5;
+  border-radius: 24px;
+  border: 0px;  
+}
+
+.Slider__button-light{
+  background: #F5F5F5;
+  margin: 0 12px 0 12px;
+}
+
+.Slider__wrapper-text{
+  
+}
+
+.Main-img{
+  margin-bottom: 48px;
+}
+
+.title-desc{
+  margin-bottom: 30px;
+}
+
+.Step{
+  margin-bottom: 138px;
+}
+
+.Step__button{
+  padding: 7.5px 23.9219px 7.5px 22.5px;
+  width: 152.42px;
+  height: 39px;
+  margin-bottom: 84px;
+}
+
+.Slider__Men{
+  display: flex;
+  margin-right: 66px;
+}
+
+.Slider__Men__item:first-of-type{
+  margin-right: 12px;
+}
+
+.slider__item-name{
+  text-align: start;
+}
+
+.Slider__Men__item-gender{
+  color: #757575;
+  text-align: start;
+}
+
+.name__price{
+  display: flex;
+  justify-content: space-between;
+}
+
+.Slider__Women{
+  display: flex;
+}
+
+.Sliders{
+  display: flex;
+}
+
+.Slider__Women__item{
+  max-width: 300px;
+}
+
+.Slider__Women__item:first-of-type{
+  margin-right: 12px;
+}
+
+.Dont-Miss__title{
+  margin-top: 48px;
+}
+
+.Dont-Miss__button{
+  border-radius: 30px;
+  width: 80.38px;
+  height: 39px;
+}
+
+.Dont-Miss{
+  margin-bottom: 84px;
+}
+
+.Essentials__img-menu{
+  display: flex;
+}
+
+.Essentials__menu-Women{
+  margin: 0 12px 0 12px;
+}
+
+.button-white {
+  position: absolute;
+  /* Добавляем абсолютное позиционирование */
+  top: 453px;
+  background-color: #FFFFFF;
+  color: #111111;
+  border-radius: 30px;
+  height: 39px;
+  padding: 7.5px 22.3906px 7.5px 21.5px;
+}
+
+.Essentials__Men__button{
+  width: 85.19px;
+  left: 48px; 
+}
+
+.Essentials__img-menu {
+  position: relative;
+  /* Добавляем позиционирование для контейнера */
+  display: flex;
+}
+
+.Essentials__menu-Women {
+  margin: 0 12px;
+  /* Удаляем правый и левый отступ */
+}
+
+.Essentials__Women__button{
+width: 108.89px;
+left: 501px;
+}
+
+.Essentials__Kids__button{
+  width: 77.19px;
+  right: 315px;
+  top: 452.98px;
+}
+
+.Essentials{
+  margin-bottom: 87px;
+}
+
+.menu__wrapper{
+  max-width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  /* Добавляем flex-контейнер */
+  flex-wrap: wrap;
+    /* Добавляем wrap для переноса элементов на следующую строку */
+  justify-content: space-between;
+    /* Равномерно распределяем промежутки */
+      flex-direction: row;
+        /* Устанавливаем направление столбцом */
+}
+
+.menu__categorie{
+  margin-bottom: 31px;
+  flex-basis: 100%;   /* Устанавливаем ширину элементов на 100% для переноса на новую строку */
+  text-align: start;
+}
+
+.menu__categorie-selection {
+  display: flex;
+  flex-direction: column;
+  /* Устанавливаем направление столбцом */
+}
+
+.menu__selection{
+  color: #757575;
+  text-align: start;
+  font-size: 15px;
+  margin-bottom: 19px;
+}
