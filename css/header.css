@@ -1,0 +1,93 @@
+
+.header-jordan img{
+    margin-left:50px;
+}
+.header-jordan{
+    width:100%;
+    background: #F5F5F5;
+    display:flex;
+    height:36px;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-jordans{
+    display: flex;
+}
+.inner-header-jordan a{
+    text-decoration: none;
+    color: #111111;
+    white-space: nowrap;
+}
+.inner-header-jordan{
+    width:77px;
+    border-right:1px solid black;
+    text-align: center;
+    padding:0 15px;
+}
+.inner-header-jordans{
+    border: none;
+    margin-right:50px;
+    margin-left:12px;
+}
+.inner-header-jordans a{
+    text-decoration: none;
+    color: #111111;
+}
+.header{
+    display: flex;   
+    width:95%;
+    margin:0 auto;
+    justify-content: center;
+    position: relative;
+}
+.form input{
+    border-radius:100px;
+    border:none;
+    background: #F5F5F5;
+}
+.form{
+    display: flex;
+    margin-top:10px;
+    align-items: center;
+    position: absolute;
+    right: 0;
+}
+.form form{
+    width: 180px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    background: #F5F5F5;
+    border-radius: 100px;
+    overflow: hidden;
+    border:none;
+}
+.form form img{
+    margin-right:16px;
+    margin-left:13px;
+}
+.header-link{
+    gap:24px;
+    display: flex;
+    
+}
+.header-link a{
+    text-decoration: none;
+    color: #111111;
+    margin-top:21px;
+}
+.nike{
+    margin-top:20px;
+    position:absolute;
+    left: 0;
+}
+.heart{
+    margin-left:28px;
+    height: 16.75801658630371px;
+    margin-right:30px;
+    width: 19.495508193969727px;
+}
+.box-header{
+    height: 16.5px;
+    width: 16.5px;
+}

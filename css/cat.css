@@ -1,0 +1,350 @@
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+img{
+    max-width: 100%;
+  }
+  
+.header{
+    display: flex;
+    justify-content: space-between;
+    width:94%;
+    margin:0 auto;
+    margin-bottom:117px;
+    margin-top:27px;
+}
+.end-header{
+    display: flex;
+}
+.box{
+    margin-left:40px;
+}
+.end-header p{
+    white-space: nowrap;
+    margin-right:51px;
+}
+.order-inner1 h1{
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 24px;
+    margin-bottom:11px;
+}
+.customs{
+    margin-bottom:33px;
+}
+.order-inner1 p{
+    font-size: 15px;
+    line-height: 24px;
+    color: #757575;
+}
+.order{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    margin:0 auto;
+    width:63%;
+    column-gap:9%;
+}
+.deliver{
+    display: flex;
+    padding-left:29px;
+    margin-bottom:44px;
+    width: 462px;
+    align-items: center;
+    height: 82px;
+    border: 2px solid #111111;
+    border-radius: 12px;
+    background-color: #fff;
+}
+.order-inner1 button img{
+    margin-right:25px;
+}
+.order-inner1 button span{
+    font-size: 15px;
+    line-height: 24px;
+}
+.order-inner1-inputs{
+    display: flex;
+    flex-direction: column;
+}
+.order-inner1-inputs input{
+    height: 56px;
+    width: 440px;
+    padding-left:16px;
+}
+.ship{
+    font-size: 11px;
+    line-height: 24px;
+    color: #757575;
+    margin-bottom:8px ;
+}
+.order-inner1-input{
+    margin-top:29px;
+    margin-bottom:32px;
+}
+.order-inner1-input2{       
+    margin-bottom:32px;
+}
+.order-inner-form{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:32px;
+}
+.order-inner-form input{
+    height: 56px;
+    padding-left:16px;
+    width:202px;
+    border-radius: 4px;
+    border:none;
+    box-shadow: 0px 0px 0px 1px #CCCCCC;
+}
+.order-inner-form2{
+    display: flex;
+    justify-content: space-between;
+}
+.order-inner-form2 button{
+    height: 56px;
+    width: 220.1875px;
+    border-radius: 4px;
+    background-color:transparent;
+    border:none;
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    gap: 54.19px;
+    box-shadow: 0px 0px 0px 1px #CCCCCC;
+}
+.green{
+    width: 8px;
+    height: 8px;
+    background: #19AB20;
+    border-radius: 4px;
+}
+.territory{
+    color: #8D8D8D;
+    font-size: 16px;
+    line-height: 24px;
+}
+.india{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact h1{
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 24px;
+    margin-bottom: 28px;
+    margin-top:50px;
+}
+.contact input{
+    height: 56px;
+    width: 440px;
+    padding-left:16px;
+}
+.profile{
+    display: flex;
+    margin-top:33px;
+}
+.profile input{
+    height: 17px;
+    width: 17px;
+    accent-color:#CCCCCC;
+}
+.profile p{
+    font-size: 15px;
+    line-height: 24px;
+    margin-left:15px;
+}
+.contact p{
+    font-size: 11px;
+    line-height: 24px;
+    font-size: 11px;
+    color: #757575;
+}
+.pan input{
+    height: 56px;
+    width: 440px;
+    border-radius: 4px;
+    padding-left: 16px;
+}
+.pan h1{
+    margin-bottom:28px;
+    margin-top: 36px;
+}
+.checkbox input{
+    width:17px;
+    accent-color:grey;
+    margin:0;
+    height:17px;
+    margin-right:15px;
+}
+.checkbox{
+    display: flex;
+    align-items: center;
+    margin-top:8px;
+}
+.checkbox p{
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.read{  
+    display: flex;
+    margin-top:67px;
+    margin-bottom: 71px;
+}
+.read p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+}
+.read input{
+    width:17px;
+    accent-color:grey;
+    margin:0;
+    height:17px;  
+    margin-right:15px;
+}
+.continue{
+    height: 60px;
+    width: 440px;
+    border-radius: 30px;
+    border: none;
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom:30px;
+    color: #757575;
+    transition: all .3s;
+}
+
+.continue:hover{
+  background-color: #111;
+  color: #fff;
+}
+
+.billing h1{
+    border-top:1px solid #E5E5E5;
+    margin-bottom:0;
+    padding-bottom:20px;
+    color: #757575;
+    padding-top:10px;
+}
+.subtotal{
+    display: flex;
+    justify-content: space-between;    
+    width: 320.0625px;
+    margin-top: 20px;
+}
+.subtotal h1{
+    font-size: 15px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #8D8D8D;
+}
+.summary{
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.shiping h1{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    color: #8D8D8D; 
+}
+.shiping{
+    display: flex;
+    justify-content: space-between;    
+    width: 320.0625px;
+    margin-top:18px;
+    border-bottom:1px solid #E5E5E5;
+    padding-bottom:20px;
+}
+.total h1{
+    font-weight: 500;
+    font-size: 15px
+}
+.total{
+    display: flex;   
+    justify-content: space-between;    
+    width: 320.0625px;
+    padding-top:15px;
+    border-bottom:1px solid #E5E5E5;;
+    color: #111111;
+    padding-bottom:15px;
+}
+.price{
+    font-size: 9px;
+    line-height: 24px;
+    color: #111111;
+    margin-top:10px;
+}
+.arrives{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    color: #111111;
+    margin-top:10px;
+    margin-bottom:8px;
+}
+.niger{
+    display: flex;
+    margin-bottom:13px;
+    gap:12px;
+}
+.inner-niger h1{
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 13px;
+}
+.inner-niger span{
+    color: #8D8D8D;
+    line-height: 150%;
+}
+.spans{
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    width:100%;
+    background: #111111;
+    display: flex;
+    justify-content: space-between;
+    height:51px;
+    align-items: center;
+    margin-top:104px;
+}
+.start-footer{
+    display: flex;
+    color: white;
+}
+.sale-footer{
+    margin-right:19px;
+    margin-left:19px;
+}
+.footer p{
+    font-size: 9px;
+    line-height: 24px;
+    color: #8D8D8D;
+}
+.images-footer{
+    display: flex;
+    gap:8px;
+    margin-right:12px;
+}
+.footer-india{
+    display: flex;
+    align-items: center;
+    gap:8px;
+    margin-right:26px;
+    margin-left:20px;
+}
+.gmail-footer{
+    margin-right:18px;
+}
+
+.footer a{
+  text-decoration: none;
+}

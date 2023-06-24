@@ -1,0 +1,149 @@
+html,body{
+    padding: 0;
+    margin: 0;
+
+}
+
+img{
+    max-width: 100%;
+  }
+  
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.w1{
+width:22%;
+
+}
+
+.w2{
+    width:15%;
+  
+}
+
+.w3{
+    width: 40%;
+}
+   
+.w4{
+    width: 25%;
+}
+
+.w5{
+    width: 51%;
+}
+
+.w6{
+    width: 25%;
+}
+
+.w7{
+    width: 25%;
+
+}
+
+
+.mit{
+    width:100%;
+    height: 50%;
+    display: flex;
+    position: relative;
+}
+
+.mit2{
+    width:100%;
+    height: 50%;
+    display: flex;
+    position: relative;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.shadow{
+    position: absolute;
+    background: linear-gradient(180deg, rgba(17, 17, 17, 0.75) 15%, rgba(17, 17, 17, 0) 100%);
+    width: 100%;
+    height: 24%;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+.head{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
+    height: 24%;
+    left: 0px;
+    right: 0px;
+    top: 10px;
+    bottom: 0px;
+}
+
+.head-flex{
+    display: flex;
+    justify-content: space-around;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    width: 70%;
+}
+
+.maed{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 24%;
+    left: 0px;
+    right: 0px;
+    top:-90px;
+    bottom: 0px;  
+}
+.maed h1{
+    font-size: 76px;
+    margin: 0;
+}
+
+.scroll{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 0px;
+    right: 0px;
+    top:110px;
+    bottom: 0px; 
+   
+
+}
+
+.mouse {
+margin-bottom: 17px;
+}
+
+.lines{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top:0px;
+    bottom: 0px; 
+}
+
+.lines img{
+    opacity:0.1;
+    width: 100%;
+    height: 100%;
+ }
+
+
+

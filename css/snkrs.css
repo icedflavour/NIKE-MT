@@ -1,0 +1,175 @@
+
+a{
+  text-decoration: none;
+  color: inherit;
+  transition: all .5s;
+}
+
+img{
+    max-width: 100%;
+  }
+  
+
+a:hover{
+  color: #757575;
+}
+
+.footer {
+  margin-top: 48px;
+}
+
+.footer a:hover {
+  color: #FFFFFF;
+}
+
+.first-column a {
+  border-bottom: 1px solid #111111;
+}
+
+.first-column a:hover {
+  border-bottom: 1px solid #FFFFFF;
+  padding-bottom: 3px;
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;  
+    
+}
+
+.header-v2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Montserrat,sans-serif;
+    font-size: 10px;
+}
+.hovers{
+    display: flex;
+    flex-direction: row;
+}
+
+.header-v2 img{
+    width: 10px;
+    height: 7px;
+}
+.first{
+   display: flex;
+   align-items: center;
+   width: 90px;
+   height: 20px;
+   color: #757575;
+   padding: 5px 10px;
+   border-radius: 50px;
+}
+
+.second{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+    width: 57px;
+    height: 20px;
+    color: #757575;
+    padding: 5px 10px;
+    border-radius: 50px;
+ }
+
+ .third{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15px;
+    height: 20px;
+    color: #757575;
+    padding: 5px 10px;
+    border-radius: 15px;
+ }
+ 
+ .first:hover{
+    color: rgb(10, 10, 10);
+}
+
+.second:hover{
+    color: rgb(10, 10, 10);
+}
+
+.third:hover{
+    color: rgb(10, 10, 10);
+}
+
+  .header-v1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 25px;
+    background-color: white;
+  
+    border-top:2px solid gainsboro ;
+    border-bottom: 2px solid gainsboro;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+.href{
+    width: 278px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 400%;
+}
+
+.feed{
+    border-bottom:2px solid #111 ;
+}
+.logo1{
+    margin: 10px;
+}
+.logo2{
+    margin: 10px;
+    width: 18px;
+    height: 18px;
+}
+
+.images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family: Montserrat,sans serif;
+    padding: 15px 15px;
+}
+
+.micro-foto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.poster{
+    border-radius:50px ;
+    background-color: black;
+    color: white;
+    margin: 20px;
+    width:200px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+}
+
+.h1{
+    margin: 0;
+    margin-bottom: 70px;
+    font-size: 23px;
+}
+
+.images p{
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-size: 15px;
+}
